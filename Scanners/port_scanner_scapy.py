@@ -94,5 +94,5 @@ if __name__ == "__main__":
     start_port, end_port = port_range.split("-")
     start_port, end_port = int(start_port), int(end_port)
     host_str = str(host)
-    host = socket.gethostbyname(host_str)
+    #host = socket.gethostbyname(host_str)
     main(host, start_port, end_port)
